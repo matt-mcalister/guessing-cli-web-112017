@@ -6,7 +6,7 @@ def run_guessing_game
     comparison = rand(1..6)
     if response.to_i == comparison
       puts "You guessed the correct number!"
-    else
+    elsif response != "exit"
       puts "The computer guessed #{response}."
       # break
     elsif response == "exit"
