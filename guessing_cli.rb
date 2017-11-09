@@ -8,7 +8,7 @@ response = gets.chomp
       puts "You guessed the correct number!"
       response = gets.chomp
     elsif response != "exit"
-      puts "The computer guessed #{response}."
+      puts "The computer guessed #{comparison}."
       response = gets.chomp
     elsif response == "exit"
       puts "Goodbye!"
