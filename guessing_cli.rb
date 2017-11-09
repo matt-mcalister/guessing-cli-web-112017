@@ -8,7 +8,7 @@ def run_guessing_game
       puts "You guessed the correct number!"
     elsif (1..6).include?(response.to_i)
       puts "The comnputer guessed #{response}."
-    elsif respone == "exit"
+    elsif response == "exit"
         puts "Goodbye!"
         break
     end
