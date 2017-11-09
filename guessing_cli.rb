@@ -7,7 +7,7 @@ def run_guessing_game
     if response.to_i == comparison
       puts "You guessed the correct number!"
     elsif (1..6).include?(response.to_i)
-      puts "The comnputer guessed #{response}."
+      puts "The computer guessed #{response}."
     elsif response == "exit"
         puts "Goodbye!"
         break
